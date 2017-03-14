@@ -7,15 +7,15 @@ $ git clone https://github.com/shishirsingh/weather-app.git
 $ cd weather-app && npm install
 $ npm start
 $ npm test
-$ open http://127.0.0.1:9009
+$ open http://127.0.0.1:8080
 ```
 
-Now, you visit http://127.0.0.1:9009/, and should see this App up and running.
+Now, you visit http://127.0.0.1:8080/, and should see this App up and running.
 
 ### Port info
 
 ```bash
-App will work on http://localhost:9009/ and you can change default port in webpack.config.js file
+App will work on http://localhost:8080/ and you can change default port in app.js file
 ```
 
 ### How this app works?
