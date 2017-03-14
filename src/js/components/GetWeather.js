@@ -30,7 +30,7 @@ export default class GetWeather extends Component {
     }
 
     getUserData() {
-        axios.get('http://api.openweathermap.org/data/2.5/forecast?q='+this.state.cityName+'&APPID='+this.props.appId)
+        axios.get('//api.openweathermap.org/data/2.5/forecast?q='+this.state.cityName+'&APPID='+this.props.appId)
         .then(res => {
             // console.log(res.data.city.name);
             var myArr=res.data;
