@@ -5,6 +5,7 @@ module.exports = {
   devtool: 'source-map',
 
   entry: [
+    'webpack/hot/dev-server',
     './src/js/index.js'
   ],
 

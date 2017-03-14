@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'eval',
 
   entry: [
-    'webpack-hot-middleware/client',
+    'webpack/hot/dev-server',
     './src/js/index.js'
   ],
 
@@ -16,8 +16,7 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
+    new webpack.HotModuleReplacementPlugin()
   ],
     externals: {
     'cheerio': 'window',
