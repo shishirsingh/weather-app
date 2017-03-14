@@ -34,3 +34,5 @@ Development: React, JSX, CSS
 Testing: Enzyme, Mocha, Chai and Sinon
 Bundle: Webpack
 ```
+
+![weather-app](/screenshot/weather-app.png?raw=true "Weather App")
